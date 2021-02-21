@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{margin: 0;
+	background-image:none;
+	font-family:sans-serif;}
+
+.snowflakes
+{display: none;}
+
+nav {display: none;}
+
+
+h1, h4 
+{font-family: sans-serif;}
+
+
+p
+{font-family: sans-serif;
+	letter-spacing: 1px;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 20px;
+	color: #000000}
+
+#wrapper 
+{width: 95%}
+
+h1
+{font-size: 14pt;
+	padding-left: 7%;
+	padding-top: 1%;
+	font-family: sans-serif;
+	color: #000000;}
+
+nav
+{display: none;}
+
+a
+{text-decoration: none;}
+
+a:link 
+{color: #000000;}
+
+a:visited, a:hover, a:active
+{color: #000000;}
+
+.home-image
+{display: none;}
+
+
+.footer-home
+{color: #000000;}
+
+.hrhome
+{display: none;}
+
+/*dog page*/
+
+
+
+.rincon
+{display: none;}
+
+.paco
+{display: none;}
+
+
+
+.hrdogs
+{display: none;}
+
+/*tacos page*/
+
+
+.taco2
+{display: none;}
+
+.salsa
+{display: none;}
+
+.hrtacos 
+{display: none;}
+

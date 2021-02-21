@@ -1,0 +1,392 @@
+@charset "utf-8";
+
+/* stylesheet */
+
+
+body
+{margin: 0;
+	background-image:url("images/mountain-background.png");
+	background-color: #4a3845;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	font-family: 'Montserrat Alternates', sans-serif;}
+
+h1 
+{font-family: 'Saira', sans-serif;}
+
+h4
+{font-family: 'Saira', sans-serif;
+	letter-spacing: 1px;}
+
+p
+{font-family: 'Montserrat Alternates', sans-serif;
+	letter-spacing: 1px;
+	font-size: 0.90em;
+	line-height: 20px;
+	color: #FFFEFF}
+
+#wrapper 
+{width: 95%}
+
+h1
+{font-size: 4em;
+	padding-left: 7%;
+	padding-top: 1%;
+	font-family: 'Saira', sans-serif;
+	color: #11090E;}
+
+nav
+{font-size: 2em;
+	float: right;
+	margin-right: 10%;
+	margin-top: -11%;
+	font-family: 'Saira', sans-serif;}
+ul
+{list-style-type: none;
+	padding: 0;
+  	overflow: hidden;}
+
+li 
+{float: left;
+	font-family: 'Saira', sans-serif;}
+
+a
+{text-decoration: none;}
+
+a:link 
+{color: #251822;}
+
+a:visited, a:hover, a:active
+{color: #1C0706;}
+
+/*home page*/
+
+.paragraph1
+{float: left;
+	width: 310px;
+	height: 310px;
+	margin-left: 7%;
+	padding: 5px 10px;
+	white-space: normal;
+	background-color: #8B6B87; 
+	color: #FFFEFF;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+.home-image
+{float: left;
+	width: 320px;
+	height: 320px;
+	margin-left: 70px;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+.paragraph2
+{float: right;
+	width: 310px;
+	height: 310px;
+	margin-right: 11%;
+	padding: 5px 10px;
+	white-space: normal;
+	background-color: #8B6B87;
+	color: #FFFEFF;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+.footer-home
+{clear: both;
+	color: #FFFEFF;
+	padding-left: 7%;
+	padding-top: 100px;
+	padding-bottom: 20px;}
+
+.hrhome
+{width: 90%;
+	margin-left: -4px;}
+
+/*dog page*/
+
+.paragraph3
+{float: left;
+	width: 277px;
+	height: 375px;
+	margin-left: 50px;
+	margin-right: 15px;
+	padding: 0px 10px 0px 10px;
+	background-color: #8B6B87;
+	color: #FFFEFF;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+.rincon
+{float: left;
+	width: 277px;
+	height: 375px;
+	margin-left: 10px;
+	margin-right: 25px;
+	margin-top: 0px;
+	background-color: #8B6B87;
+	color: #FFFEFF;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+.paco
+{float: left;
+	width: 277px;
+	height: 375px;
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-top: 0px;
+	background-color: #8B6B87;
+	color: #FFFEFF;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+.paragraph4
+{float: left;
+	width: 277px;
+	height: 375px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 0px 10px 0px 10px;
+	background-color: #8B6B87;
+	color: #FFFEFF;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+.hrdogs
+{width: 95%;
+	margin-left: -30px;}
+
+/*tacos page*/
+
+.recipe2
+{float: left;
+	width: 277px;
+	height: 375px;
+	margin-left: 50px;
+	margin-right: 15px;
+	padding: 0px 10px 0px 10px;
+	background-color: #8B6B87;
+	color: #FFFEFF;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+.taco2
+{float: left;
+	width: 277px;
+	height: 375px;
+	margin-left: 10px;
+	margin-right: 25px;
+	margin-top: 0px;
+	background-color: #8B6B87;
+	color: #FFFEFF;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+.salsa
+{float: left;
+	width: 277px;
+	height: 375px;
+	margin-left: 20px;
+	margin-right: 15px;
+	margin-top: 0px;
+	background-color: #8B6B87;
+	color: #FFFEFF;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+.receipe
+{float: left;
+	width: 277px;
+	height: 375px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 0px 10px 0px 10px;
+	background-color: #8B6B87;
+	color: #FFFEFF;
+	box-shadow: 3px 3px 3px 3px #11090E;}
+
+
+.hrtacos 
+{width: 1140px;
+	margin-left: -4px;}
+
+/*response-tablet*/
+@media only screen and (max-width: 1024px)
+	{body {margin:0; background-image: none; background-color: #817B85; width: auto; height: auto;}
+		h1 {font-size: 200%; margin-top: 30px;}
+		.wrapper {margin-left: 30px; margin-right: 30px;}
+		nav {font-size: 170%; padding-top: 10px;}
+		
+		/*home page*/
+		.h1-home {margin-left: 20px;}
+		.paragraph1 {margin-top: 20px;}
+		.home-image {margin-top: 10px;}
+		.paragraph2 {float: left; margin-top: 50px; margin-left: 270px;}
+		.hrhome {width: 800px;}
+		
+		/*dogs page*/
+		.paragraph3 {margin-top: 20px; margin-left: 80px;}
+		.rincon {margin-top: 15px; margin-right: 100px; float: right;}
+		.paco {margin-top: 35px; margin-left: 80px; clear: both;}
+		.paragraph4 {float: right; margin-top: 40px; margin-right: 100px}
+		.hrhome {width: 800px;}
+		.h1-dog {margin-left: 20px;}
+
+		/*tacos page*/
+		.recipe2 {margin-top: 20px; margin-left: 80px;}
+		.taco2 {margin-top: 15px; margin-right: 110px; float: right;}
+		.salsa {margin-top: 35px; margin-left: 90px; clear: both;}
+		.receipe {float: right; margin-top: 40px; margin-right: 100px}
+		.hrtacos {width: 800px;}
+		.h1-taco{margin-left: 20px;}}
+
+/*phone resonse*/
+
+@media only screen and (max-width: 768px)
+	{body{background-image: none; background-color: #817B85; margin: 0; width: auto; height: auto;}
+		h1 {font-size: 130%;}
+		.wrapper {width: auto; height: auto;}
+		nav {font-size: 120%; padding-top: 15px; float: left; margin-left: 30px;}
+		
+		/*home page*/
+		.paragraph1 {box-shadow: none; background-color: #817B85;}
+		.home-image {display: none;}
+		.paragraph2 {box-shadow: none; background-color: #817B85; margin-left: 30px; float: left; margin-top: -10px;}
+		.hrhome {width: 350px;}
+		
+		/*dogs page*/
+		.paragraph3 {box-shadow: none; background-color: #817B85; margin-left: 30px;}
+		.rincon {display: none;}
+		.paco {display: none;}
+		.paragraph4 {box-shadow: none; background-color: #817B85; margin-left: 30px; float: left; margin-top: -40px;}
+
+		/*taco page*/
+		.recipe2 {box-shadow: none; background-color: #817B85; float: left; margin-left: 30px;}
+		.taco2 {display: none;}
+		.salsa {display: none;}
+		.receipe {box-shadow: none; background-color: #817B85; float: left; margin-left: 30px; margin-top: -50px;}
+		.hrtacos {width: 350px;}}
+
+
+
+/*falling snow*/
+
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  text-shadow: 0 0 5px #000;}
+
+@-webkit-keyframes snowflakes-fall
+	{0%{top:-10%}100%{top:100%}}
+
+@-webkit-keyframes snowflakes-shake
+	{0%,100%{-webkit-transform:translateX(0);
+	transform:translateX(0)}50%{-webkit-transform:translateX(80px);
+	transform:translateX(80px)}}
+
+@keyframes snowflakes-fall
+	{0%{top:-10%}100%{top:100%}}
+
+@keyframes snowflakes-shake
+	{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}
+
+.snowflake
+	{position:fixed;
+		top:-10%;
+		z-index:9999;
+		-webkit-user-select:none;
+		-moz-user-select:none;
+		-ms-user-select:none;
+		user-select:none;
+		cursor:default;
+		-webkit-animation-name:snowflakes-fall,snowflakes-shake;
+		-webkit-animation-duration:10s,3s;
+		-webkit-animation-timing-function:linear,ease-in-out;
+		-webkit-animation-iteration-count:infinite,infinite;
+		-webkit-animation-play-state:running,running;
+		animation-name:snowflakes-fall,snowflakes-shake;
+		animation-duration:10s,3s;
+		animation-timing-function:linear,ease-in-out;
+		animation-iteration-count:infinite,infinite;
+		animation-play-state:running,running}
+
+.snowflake:nth-of-type(0)
+	{left:1%;
+		-webkit-animation-delay:0s,0s;
+		animation-delay:0s,0s}
+
+.snowflake:nth-of-type(1)
+	{left:10%;
+		-webkit-animation-delay:1s,1s;
+		animation-delay:1s,1s}
+
+.snowflake:nth-of-type(2)
+	{left:20%;
+		-webkit-animation-delay:6s,.5s;
+		animation-delay:6s,.5s}
+
+.snowflake:nth-of-type(3)
+	{left:30%;
+		-webkit-animation-delay:4s,2s;
+		animation-delay:4s,2s}
+
+.snowflake:nth-of-type(4)
+	{left:40%;
+		-webkit-animation-delay:2s,2s;
+		animation-delay:2s,2s}
+
+.snowflake:nth-of-type(5)
+	{left:50%;
+		-webkit-animation-delay:8s,3s;
+		animation-delay:8s,3s}
+
+.snowflake:nth-of-type(6)
+	{left:60%;
+		-webkit-animation-delay:6s,2s;
+		animation-delay:6s,2s}
+
+.snowflake:nth-of-type(7)
+	{left:70%;
+		-webkit-animation-delay:2.5s,1s;
+		animation-delay:2.5s,1s}
+
+.snowflake:nth-of-type(8)
+	{left:80%;
+		-webkit-animation-delay:1s,0s;
+		animation-delay:1s,0s}
+
+.snowflake:nth-of-type(9)
+	{left:90%;
+		-webkit-animation-delay:3s,1.5s;
+		animation-delay:3s,1.5s}
+
+.snowflake:nth-of-type(10)
+	{left:25%;
+		-webkit-animation-delay:2s,0s;
+		animation-delay:2s,0s}
+
+.snowflake:nth-of-type(11)
+	{left:65%;
+		-webkit-animation-delay:4s,2.5s;
+		animation-delay:4s,2.5s}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
